@@ -1,263 +1,204 @@
 /*
-	Made by Mau:D
+    Made by Mau:D
 */
 
 #include <bits/stdc++.h>
 
 using namespace std;
 
-
 using ll = long long int;
 using ld = long double;
-using db = double; 
-using str = string; 
- 
-using pi = pair<int,int>;
-using pl = pair<ll,ll>;
-using pd = pair<db,db>;
- 
+using db = double;
+using str = string;
+
+using pi = pair<int, int>;
+using pl = pair<ll, ll>;
+using pd = pair<db, db>;
+
 using vi = vector<int>;
 using vb = vector<bool>;
 using vl = vector<ll>;
-using vd = vector<db>; 
+using vd = vector<db>;
 using vs = vector<str>;
 using vpi = vector<pi>;
-using vpl = vector<pl>; 
+using vpl = vector<pl>;
 using vpd = vector<pd>;
- 
 
 #define mp make_pair
 #define fst first
 #define snd second
- 
+
+#define dbg(x) cout << "[" << (#x) << "]: " << (x) << endl
+#define ln cout << '\n';
 
 #define sz(x) (int)(x).size()
 #define all(x) begin(x), end(x)
-#define rall(x) (x).rbegin(), (x).rend() 
-#define sor(x) sort(all(x)) 
+#define rall(x) (x).rbegin(), (x).rend()
+#define sor(x) sort(all(x))
 #define rsz resize
-#define ins insert 
-#define ft front() 
+#define ins insert
+#define ft front()
 #define bk back()
-#define pf push_front 
+#define pf push_front
 #define pb push_back
-#define eb emplace_back 
-#define lb lower_bound 
-#define ub upper_bound 
- 
-#define FOR(i,a,b) for (int i = (a); i < (b); ++i)
-#define ROF(i,a,b) for (int i = (b)-1; i >= (a); --i)
-#define EACH(a,x) for (auto& a: x)
- 
-int MOD = 1e9+7; 
-const ll INF = 1e18; 
+#define eb emplace_back
+#define lb lower_bound
+#define ub upper_bound
+
+#define FOR(i, a, b) for (int i = (a); i < (b); ++i)
+#define ROF(i, a, b) for (int i = (b)-1; i >= (a); --i)
+#define trav(a, x) for (auto &a : x)
+#define arr array
+
+int MOD = 1e9 + 7;
+const ll INF = 1e18;
 const ld PI = acos((ld)-1);
-const int dx[4] = {1,0,-1,0}, dy[4] = {0,1,0,-1}; 
-template<class T> using pqg = priority_queue<T,vector<T>,greater<T>>;
- 
-constexpr int pct(int x) { return __builtin_popcount(x); } // # of bits set
-constexpr int bits(int x) { return 31-__builtin_clz(x); } // floor(log2(x)) 
-ll cdiv(ll a, ll b) { return a/b+((a^b)>0&&a%b); } // divide a by b rounded up
-ll fdiv(ll a, ll b) { return a/b-((a^b)<0&&a%b); } // divide a by b rounded down
- 
-// Debugging
-/*
-template<class A> void read(vt<A>& v);
-template<class A, size_t S> void read(ar<A, S>& a);
-template<class T> void read(T& x) {
-	cin >> x;
-}
-void read(double& d) {
-	string t;
-	read(t);
-	d=stod(t);
-}
-void read(long double& d) {
-	string t;
-	read(t);
-	d=stold(t);
-}
-template<class H, class... T> void read(H& h, T&... t) {
-	read(h);
-	read(t...);
-}
-template<class A> void read(vt<A>& x) {
-	EACH(a, x)
-		read(a);
-}
-template<class A, size_t S> void read(array<A, S>& x) {
-	EACH(a, x)
-		read(a);
-}
- 
-string to_string(char c) {
-	return string(1, c);
-}
-string to_string(bool b) {
-	return b?"true":"false";
-}
-string to_string(const char* s) {
-	return string(s);
-}
-string to_string(string s) {
-	return s;
-}
-string to_string(vt<bool> v) {
-	string res;
-	FOR(sz(v))
-		res+=char('0'+v[i]);
-	return res;
-}
- 
-template<size_t S> string to_string(bitset<S> b) {
-	string res;
-	FOR(S)
-		res+=char('0'+b[i]);
-	return res;
-}
-template<class T> string to_string(T v) {
-    bool f=1;
-    string res;
-    EACH(x, v) {
-		if(!f)
-			res+=' ';
-		f=0;
-		res+=to_string(x);
-	}
-    return res;
-}
- 
-template<class A> void write(A x) {
-	cout << to_string(x);
-}
-template<class H, class... T> void write(const H& h, const T&... t) { 
-	write(h);
-	write(t...);
-}
-void print() {
-	write("\n");
-}
-template<class H, class... T> void print(const H& h, const T&... t) { 
-	write(h);
-	if(sizeof...(t))
-		write(' ');
-	print(t...);
-}
- 
-void DBG() {
-	cerr << "]" << endl;
-}
-template<class H, class... T> void DBG(H h, T... t) {
-	cerr << to_string(h);
-	if(sizeof...(t))
-		cerr << ", ";
-	DBG(t...);
-}
-#ifdef _DEBUG
-#define dbg(...) cerr << "LINE(" << __LINE__ << ") -> [" << #__VA_ARGS__ << "]: [", DBG(__VA_ARGS__)
-#else
-#define dbg(...) 0
-#endif
- 
-*/
-// Aqui empieza mi codigo:)
+const int dx[4] = {1, 0, -1, 0}, dy[4] = {0, 1, 0, -1};
+template <class T>
+using pqg = priority_queue<T, vector<T>, greater<T>>;
 
-const int maxN = 1002;
-int n;
-int a[maxN];
+constexpr int pct(int x) { return __builtin_popcount(x); }     // # of bits set
+constexpr int bits(int x) { return 31 - __builtin_clz(x); }    // floor(log2(x))
+ll cdiv(ll a, ll b) { return a / b + ((a ^ b) > 0 && a % b); } // divide a by b rounded up
+ll fdiv(ll a, ll b) { return a / b - ((a ^ b) < 0 && a % b); } // divide a by b rounded down
 
-vpi movements;
+// Debug
 
-bool valid(int s)
+void print()
 {
-    //cout<<"s: "<<s<<endl;
-    movements.clear();
-    if (a[n-1] > s)return false;
-
-    bool v[n];
-    FOR(i,0,n)v[i]=false;
-    int obj = s;
-    
-        int reps = 0;
-
-    while (true)
-    {
-        int i = 0, j = n-1;
-
-        while (v[i])i++;
-        while (v[j])j--;
-
-        //cout<<"i,j: "<<i<<" "<<j<<endl;
-        bool ok = false;
-
-        while (i < j)
-        {
-            int suma = a[i] + a[j];
-            //cout<<"suma: "<<suma<<endl;
-            if (suma == obj)
-            {
-                reps += 2;
-                v[i] = true;
-                v[j] = true;
-                movements.pb({a[i],a[j]});
-
-                obj = max(a[i],a[j]);
-                //cout<<"reps: "<<reps;
-
-                if (reps == n)
-                {
-                    return true;
-                }
-                ok = true;
-                break;
-            }
-            else if (suma > obj)
-            {
-                j--;
-                while (v[j])j--;
-            }
-            else 
-            {
-                i++;
-                while(v[i])i++;
-            }
-
-        }
-
-        // Lo complete
-        if (!ok)
-        {
-            return false;
-        }
-    }
-
+    cout << '\n';
 }
+
+template <typename First, typename... Strings>
+void print(First argument, const Strings &... rest)
+{
+    cout << argument << " ";
+    print(rest...);
+}
+
+template <typename T>
+void dbga(string nombre, T arr[], int size)
+{
+    cout << '[' << nombre << "]: ";
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << '\n';
+}
+
+template <typename T>
+void dbga(string nombre, vector<T> arr)
+{
+    cout << '[' << nombre << "]: ";
+    for (int i = 0; i < arr.size(); i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << '\n';
+}
+
+template <typename T>
+void printa(T arr[], int size)
+{
+    for (int i = 0; i < size; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << '\n';
+}
+
+template <typename T>
+void printa(vector<T> arr)
+{
+    for (int i = 0; i < arr.size(); i++)
+    {
+        cout << arr[i] << " ";
+    }
+    cout << '\n';
+}
+
+// Aqui empieza mi codigo:)
 
 void solve()
 {
-    cin>>n;
+    int n;
+    cin >> n;
+
     n *= 2;
-    FOR(i,0,n) 
+
+    int ar[n + 2];
+
+    FOR(i, 0, n)
     {
-        cin>>a[i];
+        cin >> ar[i];
     }
-    sort(a,a+n);
 
-    FOR(i,0,n-1)
+    sort(ar, ar + n);
+
+    FOR(i, 0, n - 1)
     {
-        if (valid(a[i] + a[n-1]))
-        {
-            cout<<"YES"<<endl;
-            cout<<a[i] + a[n-1]<<endl;
-            EACH(x,movements)
-            {
-                cout<<x.first<<" "<<x.second<<endl;
-            }
-            return;
-        }
-    }   
-    cout<<"NO"<<endl;
+        vpi steps;
 
+        steps.pb({ar[i], ar[n - 1]});
+        int check = ar[i] + ar[n - 1];
+        multiset<int> set(ar, ar + n - 1);
+
+        auto it = set.begin();
+        FOR(j, 0, i)
+        it++;
+        set.erase(it); // Borra keys
+
+        int obj = ar[n - 1];
+
+        while (true)
+        {
+            auto start = set.begin();
+            auto end = set.end();
+            bool ok = false;
+            while (start != end)
+            {
+                int vstart = *start, vend = *end;
+                if (vstart + vend == obj)
+                {
+                    //print(vstart, vend);
+                    steps.pb({vstart, vend});
+                    obj = vend;
+                    ok = true;
+                    break;
+                }
+                else if (vstart + vend > obj)
+                {
+                    end--;
+                }
+                else
+                {
+                    start++;
+                }
+            }
+
+            if (!ok)
+            {
+                break;
+            }
+            else
+            {
+                set.erase(start);
+                set.erase(end);
+            }
+
+            if (set.empty())
+            {
+                cout << "YES" << endl;
+                cout << check << endl;
+                // print("YES");
+                // print(check);
+                trav(x, steps) cout << x.first << " " << x.second << endl; // print(x.first, x.second);
+                return;
+            }
+        }
+    }
+    cout << "NO" << endl; //print("NO");
 }
 
 int main()
@@ -265,7 +206,13 @@ int main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
 
-    int t; cin>>t;
-    while(t--)solve();
+    int t;
+    cin >> t;
+    // t = 1
+    while (t--)
+    {
+        solve();
+        // ln ln
+    }
     return 0;
 }
