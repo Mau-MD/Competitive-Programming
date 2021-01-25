@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/Kickstart A 2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/Kickstart A 2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/Kickstart A 2/cmake-build-debug/CMakeFiles/Kickstart_A_2.dir

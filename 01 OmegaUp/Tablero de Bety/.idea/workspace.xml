@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Tablero_de_Bety" targetName="Tablero_de_Bety" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d121adca-e3c6-4b32-a73f-de6e83ede192" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1VGRUwxxWlBytTgRpzVOHt8t0AX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tablero_de_Bety" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Tablero_de_Bety" TARGET_NAME="Tablero_de_Bety" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Tablero_de_Bety" RUN_TARGET_NAME="Tablero_de_Bety">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d121adca-e3c6-4b32-a73f-de6e83ede192" name="Default Changelist" comment="" />
+      <created>1576877464406</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576877464406</updated>
+      <workItem from="1576877466059" duration="2631000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1238" height="232" key="GridCell.Tab.0.bottom" timestamp="1576882569587">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1238" height="232" key="GridCell.Tab.0.bottom/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1576882569587" />
+    <state width="1238" height="232" key="GridCell.Tab.0.center" timestamp="1576882569586">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1238" height="232" key="GridCell.Tab.0.center/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1576882569586" />
+    <state width="1238" height="232" key="GridCell.Tab.0.left" timestamp="1576882569586">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1238" height="232" key="GridCell.Tab.0.left/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1576882569586" />
+    <state width="1238" height="232" key="GridCell.Tab.0.right" timestamp="1576882569587">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1238" height="232" key="GridCell.Tab.0.right/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1576882569587" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

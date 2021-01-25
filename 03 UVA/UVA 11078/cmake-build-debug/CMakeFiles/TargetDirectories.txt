@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/UVA 11078/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/UVA 11078/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/UVA 11078/cmake-build-debug/CMakeFiles/UVA_11078.dir

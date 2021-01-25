@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/Tabla para pastel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/Tabla para pastel/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/Tabla para pastel/cmake-build-debug/CMakeFiles/Tabla_para_pastel.dir

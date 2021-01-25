@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="Functions_Homework" targetName="Functions_Homework" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3ddbc63-2892-4028-ba1c-4c085d4ce36a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1WaVeJ01pjC5ygUZw6CLfTmJhih" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Functions_Homework" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Functions_Homework" TARGET_NAME="Functions_Homework" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Functions_Homework" RUN_TARGET_NAME="Functions_Homework">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3ddbc63-2892-4028-ba1c-4c085d4ce36a" name="Default Changelist" comment="" />
+      <created>1579387788050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579387788050</updated>
+      <workItem from="1579387798626" duration="5130000" />
+      <workItem from="1579395366863" duration="1795000" />
+      <workItem from="1579463764418" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1236" height="244" key="GridCell.Tab.0.bottom" timestamp="1579415706305">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="244" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1579415706305" />
+    <state width="1318" height="183" key="GridCell.Tab.0.bottom/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579394825691" />
+    <state width="1236" height="244" key="GridCell.Tab.0.center" timestamp="1579415706304">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="244" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1579415706304" />
+    <state width="1318" height="183" key="GridCell.Tab.0.center/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579394825689" />
+    <state width="1236" height="244" key="GridCell.Tab.0.left" timestamp="1579415706303">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="244" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1579415706303" />
+    <state width="1318" height="183" key="GridCell.Tab.0.left/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579394825688" />
+    <state width="1236" height="244" key="GridCell.Tab.0.right" timestamp="1579415706305">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state width="1236" height="244" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1579415706305" />
+    <state width="1318" height="183" key="GridCell.Tab.0.right/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579394825690" />
+    <state x="1469" y="23" key="SettingsEditor" timestamp="1579463862951">
+      <screen x="1280" y="0" width="1360" height="768" />
+    </state>
+    <state x="1469" y="23" key="SettingsEditor/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579463862951" />
+    <state x="282" y="232" key="com.intellij.ide.util.TipDialog" timestamp="1579395366933">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="282" y="232" key="com.intellij.ide.util.TipDialog/0.0.1280.800@0.0.1280.800" timestamp="1579395366933" />
+    <state x="1625" y="177" key="run.anything.popup" timestamp="1579391892379">
+      <screen x="1280" y="0" width="1360" height="768" />
+    </state>
+    <state x="1625" y="177" key="run.anything.popup/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579391892379" />
+    <state x="1625" y="92" width="670" height="58" key="search.everywhere.popup" timestamp="1579389291092">
+      <screen x="1280" y="0" width="1360" height="768" />
+    </state>
+    <state x="1625" y="92" width="670" height="58" key="search.everywhere.popup/1280.0.1360.768/0.0.1280.800@1280.0.1360.768" timestamp="1579389291092" />
+  </component>
+</project>

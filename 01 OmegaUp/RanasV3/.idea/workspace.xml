@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="RanasV3" targetName="RanasV3" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5f3b1e3f-a434-46b4-ab13-51c0c43d7203" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1a3Ri2vqZzJUh4KjgQWTAKfDDks" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="RanasV3" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="RanasV3" TARGET_NAME="RanasV3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="RanasV3" RUN_TARGET_NAME="RanasV3">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f3b1e3f-a434-46b4-ab13-51c0c43d7203" name="Default Changelist" comment="" />
+      <created>1585962414572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585962414572</updated>
+      <workItem from="1585962416794" duration="935000" />
+      <workItem from="1586049386892" duration="4811000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1316" height="213" key="GridCell.Tab.0.bottom" timestamp="1586055003190">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1316" height="213" key="GridCell.Tab.0.bottom/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1586055003190" />
+    <state width="1316" height="213" key="GridCell.Tab.0.center" timestamp="1586055003189">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1316" height="213" key="GridCell.Tab.0.center/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1586055003189" />
+    <state width="1316" height="213" key="GridCell.Tab.0.left" timestamp="1586055003188">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1316" height="213" key="GridCell.Tab.0.left/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1586055003188" />
+    <state width="1316" height="213" key="GridCell.Tab.0.right" timestamp="1586055003190">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1316" height="213" key="GridCell.Tab.0.right/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1586055003190" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/Goldbach's Conjecture v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/Goldbach's Conjecture v2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/Goldbach's Conjecture v2/cmake-build-debug/CMakeFiles/Goldbach_s_Conjecture_v2.dir

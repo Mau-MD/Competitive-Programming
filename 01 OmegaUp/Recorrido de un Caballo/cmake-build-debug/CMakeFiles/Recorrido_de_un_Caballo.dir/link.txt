@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Recorrido_de_un_Caballo.dir/main.cpp.o  -o Recorrido_de_un_Caballo 

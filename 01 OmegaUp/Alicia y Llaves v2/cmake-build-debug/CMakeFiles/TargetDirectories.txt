@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/Alicia y Llaves v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/Alicia y Llaves v2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/Alicia y Llaves v2/cmake-build-debug/CMakeFiles/Alicia_y_Llaves_v2.dir

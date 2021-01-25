@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Cosa_del_profe_alex.dir/main.cpp.o  -o Cosa_del_profe_alex 

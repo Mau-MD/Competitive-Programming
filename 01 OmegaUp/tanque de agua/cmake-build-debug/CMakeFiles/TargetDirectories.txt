@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/tanque de agua/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/tanque de agua/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/tanque de agua/cmake-build-debug/CMakeFiles/tanque_de_agua.dir

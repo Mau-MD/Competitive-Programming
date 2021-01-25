@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/Coleccionista en Expansion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/Coleccionista en Expansion/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/Coleccionista en Expansion/cmake-build-debug/CMakeFiles/Coleccionista_en_Expansion.dir

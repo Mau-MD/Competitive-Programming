@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Los_que_hacen_tik_toks"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Los_que_hacen_tik_toks">
+				<Option output="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug/Los_que_hacen_tik_toks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 Los_que_hacen_tik_toks"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Los_que_hacen_tik_toks/fast">
+				<Option output="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug/Los_que_hacen_tik_toks" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 Los_que_hacen_tik_toks/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/maudieguez/Documents/C++/Los\ que\ hacen\ tik-toks/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/main.cpp">
+			<Option target="Los_que_hacen_tik_toks"/>
+		</Unit>
+		<Unit filename="/Users/maudieguez/Documents/C++/Los que hacen tik-toks/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

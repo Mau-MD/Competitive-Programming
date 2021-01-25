@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/c++  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/Dibujo_de_Sep.dir/main.cpp.o  -o Dibujo_de_Sep 

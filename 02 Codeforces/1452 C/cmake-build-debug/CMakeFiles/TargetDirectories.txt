@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/02 Codeforces/1452 C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/02 Codeforces/1452 C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/02 Codeforces/1452 C/cmake-build-debug/CMakeFiles/1452_C.dir

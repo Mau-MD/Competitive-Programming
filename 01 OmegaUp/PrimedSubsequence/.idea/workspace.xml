@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="PrimedSubsequence" targetName="PrimedSubsequence" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8c2f817-1d12-4b4e-b33d-f1be24cf7fc4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="ProjectId" id="1WxP7RzLxRUjWQnSw8oUEL0RBCi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RunManager">
+    <configuration name="PrimedSubsequence" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PrimedSubsequence" TARGET_NAME="PrimedSubsequence" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PrimedSubsequence" RUN_TARGET_NAME="PrimedSubsequence">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8c2f817-1d12-4b4e-b33d-f1be24cf7fc4" name="Default Changelist" comment="" />
+      <created>1580088105044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580088105044</updated>
+      <workItem from="1580088112556" duration="3201000" />
+      <workItem from="1580182924606" duration="4268000" />
+      <workItem from="1580278665810" duration="532000" />
+      <workItem from="1580323766125" duration="486000" />
+      <workItem from="1580352287495" duration="2701000" />
+      <workItem from="1580420053232" duration="243000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="23" width="628" height="777" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog" timestamp="1580185561946">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="0" y="23" width="628" height="777" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.23.1280.777@0.23.1280.777" timestamp="1580185561946" />
+    <state width="1316" height="167" key="GridCell.Tab.0.bottom" timestamp="1580356179180">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1236" height="225" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1580187424404" />
+    <state width="1316" height="167" key="GridCell.Tab.0.bottom/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1580356179180" />
+    <state width="1316" height="167" key="GridCell.Tab.0.center" timestamp="1580356179178">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1236" height="225" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1580187424403" />
+    <state width="1316" height="167" key="GridCell.Tab.0.center/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1580356179178" />
+    <state width="1316" height="167" key="GridCell.Tab.0.left" timestamp="1580356179178">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1236" height="225" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1580187424402" />
+    <state width="1316" height="167" key="GridCell.Tab.0.left/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1580356179178" />
+    <state width="1316" height="167" key="GridCell.Tab.0.right" timestamp="1580356179179">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state width="1236" height="225" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1580187424403" />
+    <state width="1316" height="167" key="GridCell.Tab.0.right/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1580356179179" />
+    <state x="149" y="50" key="SettingsEditor" timestamp="1580186585755">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="149" y="50" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1580186585755" />
+    <state x="282" y="244" key="com.intellij.ide.util.TipDialog" timestamp="1580420053065">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="282" y="244" key="com.intellij.ide.util.TipDialog/0.23.1280.777@0.23.1280.777" timestamp="1580420053065" />
+    <state x="282" y="244" key="com.intellij.ide.util.TipDialog/1280.23.1360.745/0.23.1280.777@0.23.1280.777" timestamp="1580352291743" />
+    <state x="1625" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1580352550473">
+      <screen x="1280" y="23" width="1360" height="745" />
+    </state>
+    <state x="1625" y="92" width="670" height="676" key="search.everywhere.popup/1280.23.1360.745/0.23.1280.777@1280.23.1360.745" timestamp="1580352550473" />
+  </component>
+</project>

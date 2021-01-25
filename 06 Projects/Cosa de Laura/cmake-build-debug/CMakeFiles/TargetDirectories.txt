@@ -1,0 +1,3 @@
+/Users/maudieguez/Documents/C++/Cosa de Laura/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/maudieguez/Documents/C++/Cosa de Laura/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/maudieguez/Documents/C++/Cosa de Laura/cmake-build-debug/CMakeFiles/Cosa_de_Laura.dir
