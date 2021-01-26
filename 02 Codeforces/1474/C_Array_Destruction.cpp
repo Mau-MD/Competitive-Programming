@@ -127,11 +127,18 @@ void solve()
 
     n *= 2;
 
-    int ar[n + 2];
+    int ar[n];
 
     FOR(i, 0, n)
     {
         cin >> ar[i];
+    }
+    if (n == 2)
+    {
+        cout << "YES" << endl;
+        cout << ar[0] + ar[1] << endl;
+        cout << ar[0] << " " << ar[1] << endl;
+        return;
     }
 
     sort(ar, ar + n);
@@ -145,60 +152,46 @@ void solve()
         multiset<int> set(ar, ar + n - 1);
 
         auto it = set.begin();
-        FOR(j, 0, i)
-        it++;
+        advance(it, i);
         set.erase(it); // Borra keys
 
         int obj = ar[n - 1];
 
         while (true)
         {
-            auto start = set.begin();
             auto end = set.end();
-            bool ok = false;
-            while (start != end)
-            {
-                int vstart = *start, vend = *end;
-                if (vstart + vend == obj)
-                {
-                    //print(vstart, vend);
-                    steps.pb({vstart, vend});
-                    obj = vend;
-                    ok = true;
-                    break;
-                }
-                else if (vstart + vend > obj)
-                {
-                    end--;
-                }
-                else
-                {
-                    start++;
-                }
-            }
+            end--;
 
-            if (!ok)
+            int big = *end;
+
+            auto search = set.find(obj - big);
+
+            
+            if (search != set.end()) // Si hay un match
             {
-                break;
+                if (*search == big && set.count(*search) == 1)break;
+
+                steps.pb({big, obj - big});
+                obj = big;
+                set.erase(end);
+                set.erase(search);
             }
             else
             {
-                set.erase(start);
-                set.erase(end);
+                break;
             }
 
             if (set.empty())
             {
-                cout << "YES" << endl;
-                cout << check << endl;
-                // print("YES");
-                // print(check);
-                trav(x, steps) cout << x.first << " " << x.second << endl; // print(x.first, x.second);
+                print("YES");
+                print(check);
+                trav(x,steps)print(x.first, x.second);
                 return;
             }
         }
     }
-    cout << "NO" << endl; //print("NO");
+    print("NO");
+
 }
 
 int main()

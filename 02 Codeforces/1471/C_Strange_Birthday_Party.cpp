@@ -1,5 +1,5 @@
 /*
-    Made by Mau:D
+	Made by Mau:D
 */
 
 #include <bits/stdc++.h>
@@ -118,76 +118,156 @@ void printa(vector<T> arr)
     cout << '\n';
 }
 
+struct node
+{
+    ll menor;
+    int ind;
+};
+
+struct segTree
+{
+    int size;
+    vector<node> tree;
+
+    void init(int n)
+    {
+        size = 1;
+        while (size < n)
+            size *= 2;
+        tree.reserve(size * 2);
+    }
+
+    node merge(node a, node b)
+    {
+        node res;
+        if (a.menor < b.menor)
+        {
+            res.menor = a.menor;
+            res.ind = a.ind;
+        }
+        else
+        {
+            res.menor = b.menor;
+            res.ind = b.ind;
+        }
+        return res;
+    }
+
+    void build(vl &a, int x, int lx, int rx)
+    {
+        if (rx - lx == 1)
+        {
+            if (lx < sz(a))
+            {
+                tree[x] = {a[lx], lx};
+            }
+            return;
+        }
+
+        int m = (lx + rx) / 2;
+        build(a, 2 * x + 1, lx, m);
+        build(a, 2 * x + 2, m, rx);
+        tree[x] = merge(tree[2 * x + 1], tree[2 * x + 2]);
+    }
+
+    void build(vl &a)
+    {
+        build(a, 0, 0, size);
+    }
+
+    void set(int i, ll val, int x, int lx, int rx)
+    {
+        if (rx - lx == 1)
+        {
+            tree[x] = {val, lx};
+            return;
+        }
+
+        int m = (lx + rx) / 2;
+        if (i < m)
+        {
+            set(i, val, 2 * x + 1, lx, m);
+        }
+        else
+        {
+            set(i, val, 2 * x + 2, m, rx);
+        }
+        tree[x] = merge(tree[2 * x + 1], tree[2 * x + 2]);
+    }
+
+    void set(int i, ll val)
+    {
+        set(i, val, 0, 0, size);
+    }
+
+    node querry(int l, int r, int x, int lx, int rx)
+    {
+        if (l >= rx || lx >= r)
+        {
+            return {LLONG_MAX, -1};
+        }
+        if (lx >= l && rx <= r)
+            return tree[x];
+
+        int m = (lx + rx) / 2;
+        node s1 = querry(l, r, 2 * x + 1, lx, m);
+        node s2 = querry(l, r, 2 * x + 2, m, rx);
+        return merge(s1, s2);
+    }
+
+    node querry(int l, int r)
+    {
+        return querry(l, r, 0, 0, size);
+    }
+};
+
 // Aqui empieza mi codigo:)
 
 void solve()
 {
-    int n;
-    cin >> n;
+    int n, m;
+    cin >> n >> m;
 
-    n *= 2;
-
-    int ar[n];
-
+    vl k(n);
     FOR(i, 0, n)
     {
-        cin >> ar[i];
-    }
-    if (n == 2)
-    {
-        cout << "YES" << endl;
-        cout << ar[0] + ar[1] << endl;
-        cout << ar[0] << " " << ar[1] << endl;
-        return;
+        cin >> k[i];
     }
 
-    sort(ar, ar + n);
-
-    FOR(i, 0, n - 1)
+    vl p(m);
+    FOR(i, 0, m)
     {
-        vpi steps;
+        cin >> p[i];
+    }
 
-        steps.pb({ar[i], ar[n - 1]});
-        int check = ar[i] + ar[n - 1];
-        multiset<int> set(ar, ar + n - 1);
+    segTree st;
+    st.init(m);
+    st.build(p);
 
-        auto it = set.begin();
-        advance(it, i);
-        set.erase(it); // Borra keys
+    vpl ord(n);
+    FOR(i, 0, n)
+    {
+        ord[i] = {p[k[i] - 1], k[i]};
+    }
 
-        int obj = ar[n - 1];
+    sort(all(ord));
+    reverse(all(ord));
 
-        while (true)
+    ll ans = 0;
+    FOR(i,0,sz(ord))
+    {
+        node minn = st.querry(0,ord[i].snd);
+        if (minn.menor < ord[i].fst)
         {
-            auto end = set.end();
-            end--;
-
-            int big = *end;
-
-            auto search = set.find(obj - big);
-            if (search != set.end()) // Si hay un match
-            {
-                steps.pb({big, obj - big});
-                obj = big;
-                set.erase(end);
-                set.erase(search);
-            }
-            else
-            {
-                break;
-            }
-
-            if (set.empty())
-            {
-                print("YES");
-                print(check);
-                trav(x,steps)print(x.first, x.second);
-                return;
-            }
+            ans+=minn.menor;
+            st.set(minn.ind, LLONG_MAX);
+        }
+        else
+        {
+            ans+=ord[i].fst;
         }
     }
-    print("NO");
-
+    cout<<ans<<endl;
 }
 
 int main()
