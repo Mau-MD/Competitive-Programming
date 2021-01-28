@@ -119,58 +119,66 @@ void printa(vector<T> arr)
 }
 
 // Aqui empieza mi codigo:)
-const int maxN = 1e5 + 2;
-ll sameLetter[maxN];
 
-void precalc()
+struct edge
 {
-  sameLetter[2] = 1LL, sameLetter[3] = 2LL, sameLetter[4] = 2LL;
-  FOR(i, 5, maxN)
+  int a, b, c;
+};
+
+const int maxN = 2e5 + 2;
+int vert[maxN];
+vi adj[maxN];
+
+void init(int n)
+{
+  FOR(i, 0, n+1)
   {
-    ll ind = i - 1LL;
-    ll mult = ind / 3LL;
-    ll rest = ind % 3;
-    sameLetter[i] = 2LL * mult + rest;
+    vert[i] = 0;
+    adj[i].clear();
   }
 }
+
 void solve()
 {
-  string a;
-  cin >> a;
+  int n;
+  cin >> n;
+  init(n);
 
-  ll res = 0;
-  int same = 1;
-
-  if (sz(a) == 1)
+  ll ans = 0;
+  FOR(i, 1, n + 1)
   {
-    print(0);
-    return;
+    cin >> vert[i];
+    ans += vert[i];
   }
 
-  int n = sz(a);
-  int ans = 0;
-  FOR(i, 1, n)
+  FOR(i, 0, n - 1)
   {
-    if (i <= 1)
+    int a, b;
+    cin >> a >> b;
+    adj[a].pb(b);
+    adj[b].pb(a);
+  }
+
+  vi mayor;
+
+  FOR(i, 1, n + 1) // N vertices
+  {
+    if (adj[i].size() > 1)
     {
-      if (a[i] == a[i-1])
-      {
-        ans++;
-        a[i] = '.';
-      }
-    }
-    else
-    {
-      if (a[i] == a[i-1] || a[i] == a[i-2])
-      {
-        ans++;
-        a[i] = '.';
-      }
+      FOR(j, 0, adj[i].size() - 1)
+        mayor.pb(vert[i]);
     }
   }
 
-  print(ans);
+  sort(all(mayor));
+  reverse(all(mayor));
 
+  FOR(i, 0, n - 1)
+  {
+    if (i > 0)ans += mayor[i-1];
+    cout << ans << " ";
+  }
+  ln
 }
 
 int main()
@@ -178,7 +186,6 @@ int main()
   ios_base::sync_with_stdio(0);
   cin.tie(0);
 
-  precalc();
   int t;
   cin >> t;
   // t = 1

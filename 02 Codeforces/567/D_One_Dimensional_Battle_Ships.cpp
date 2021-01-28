@@ -1,5 +1,5 @@
 /*
-	Made by Mau:D
+  Made by Mau:D
 */
 
 #include <bits/stdc++.h>
@@ -226,36 +226,77 @@ struct segTree
   }
 };
 
+
+const int maxN = 2e5 + 2;
+int mapp[maxN];
+
+int n,k,a;
+
+bool can(int turn){
+  int count  =0;
+  int barcos = 0;
+  // 1
+  FOR(i,1,n+1)
+  {
+    if (mapp[i] == 0)count++;  
+    else if (mapp[i] != 0)
+    {
+      if (mapp[i] > turn)
+      {
+        count++;
+      }
+      else
+      {
+        count = 0;
+      }
+    }
+    if (count == a)
+    {
+      i++;
+      barcos++;
+      count = 0;
+    }
+  }
+  //dbg(barcos);
+  if (barcos >= k)return true;
+  else return false;
+}
+
 void solve()
 {
-  int n, k, a;
+
   cin >> n >> k >> a;
   int m;
   cin >> m;
+ 
 
-  segTree st;
-  st.init(n);
-
-  FOR(i, 0, m)
+  FOR(i,0,m)
   {
-    int d;
-    cin >> d;
-    d--;
-    int l = max(0, d - (a - 1));
-    int r = min(n - 1, d + (a - 1));
-    dbg(l);
-    dbg(r);
-    st.set(l, r + 1, 1);
+    int d; cin>>d;
+    mapp[d] = i + 1;
+  }
 
-    int val = st.query(l, r + 1);
-    dbg(val);
-    if (val> 2)
+  // True = no miente
+  int low = 1, high = m, mid;
+  while(high - low > 1)
+  {
+    mid = (low + high) / 2;
+    if (can(mid))
     {
-      print(i + 1);
-      return;
+      //print("no");
+      low = mid;
+    }
+    else
+    {
+      //print("si");
+      high = mid;
     }
   }
-  print(-1);
+  
+  //print(low,high);
+  if (can(low) && can(high))print(-1);
+  else if (!can(low) && !can(high))print(low);
+  else print(high);
 }
 
 int main()
