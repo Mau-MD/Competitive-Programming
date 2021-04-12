@@ -1,0 +1,1 @@
+{"name":"Local: funicular","url":"/Users/maudieguez/Documents/C++/17 PES/Examen 4/funicular.cpp","tests":[{"id":1618082803730,"input":"5 2\n1\n3\n4\n6\n12","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/maudieguez/Documents/C++/17 PES/Examen 4/funicular.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: c","url":"/Users/maudieguez/Documents/C++/16 COCI/round 5/c.cpp","tests":[{"id":1613235130211,"input":"5\n1 4\n2 1 plava\n1 3 crvena\n5 2 plava\n4 1 magenta","output":"Paula"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/maudieguez/Documents/C++/16 COCI/round 5/c.cpp","group":"local","local":true}
